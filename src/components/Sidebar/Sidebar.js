@@ -10,6 +10,7 @@ import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import { ExpandMoreOutlined } from "@material-ui/icons";
 import { useStateValue } from "../../StateProvider";
 function Sidebar() {
+  /* eslint-disable */
   const [{ user }, dispatch] = useStateValue();
 
   return (

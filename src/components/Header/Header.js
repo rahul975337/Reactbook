@@ -14,6 +14,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useStateValue } from "../../StateProvider";
 
 function Header() {
+  /* eslint-disable */
   const [{ user }, dispatch] = useStateValue();
   return (
     <div className="header">

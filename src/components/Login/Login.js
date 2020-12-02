@@ -5,6 +5,7 @@ import { auth, provider } from "../../firebase";
 import { useStateValue } from "../../StateProvider";
 import { actionTypes } from "../../reducer";
 function Login() {
+  /* eslint-disable */
   const [state, dispatch] = useStateValue();
   const signIn = () => {
     auth
