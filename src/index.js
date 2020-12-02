@@ -6,6 +6,7 @@ import { StateProvider } from "./StateProvider";
 import reducer, { initialState } from "./reducer";
 
 ReactDOM.render(
+  /* eslint-disable */
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer}>
       <App />

@@ -6,6 +6,7 @@ import RightBar from "./components/RightBar/RightBar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { useStateValue } from "./StateProvider";
 function App() {
+  /* eslint-disable */
   const [{ user }, dispatch] = useStateValue();
   return (
     <div className="app">
